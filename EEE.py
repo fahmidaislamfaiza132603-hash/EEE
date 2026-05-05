@@ -1,11 +1,3 @@
-"""
-EduTrack Pro 2026 - COMPLETE WORKING VERSION
-=============================================
-Fixed Parser for EEE Department Excel Format
-Handles: Midterm Exam, Final Exam, Assignment, Analysis of CO, Analysis of PO
-With all original features + production upgrades
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
