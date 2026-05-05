@@ -1,3 +1,15 @@
+import subprocess
+import sys
+
+def install_packages():
+    packages = [
+        'matplotlib', 'pandas', 'numpy', 'plotly', 'seaborn',
+        'scikit-learn', 'joblib', 'bcrypt', 'openpyxl', 'reportlab', 'pytz'
+    ]
+    for package in packages:
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
+
+install_packages()
 """
 EduTrack Pro 2026 - TRUE Production Version
 =============================================
